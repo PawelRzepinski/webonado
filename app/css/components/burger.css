@@ -1,0 +1,21 @@
+.burger {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  margin: 0;
+  padding: 0; }
+  .burger__line {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 20px;
+    height: 2px;
+    background-color: #6f42c1; }
+    .burger__line--top {
+      transform: translate(-50%, -3px);
+      background-color: #20c997; }
+    .burger__line--middle {
+      transform: translate(-50%, -50%); }
+    .burger__line--bottom {
+      transform: translate(-50%, 3px);
+      background-color: black; }
