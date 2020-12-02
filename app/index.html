@@ -13,9 +13,35 @@
     <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/47bfe818c0.js" crossorigin="anonymous"></script>
 </head>
 <body>
-Test
+    <header class="header">
+        <nav class="header__nav">
+            <ul class="header__menu">
+                <li class="header__menu-item"><a class="header__menu-item-link" href="">Payment</a></li>
+                <li class="header__menu-item"><a class="header__menu-item-link" href="">About us</a></li>
+                <li class="header__menu-item"><a class="header__menu-item-link" href="">Contacts</a></li>
+            </ul>
+        </nav>
+        <a class="logo logo--header" href="">
+            <img src="./images/logo.png" alt="classic">
+        </a>
+        <div class="info-wrapper">
+            <p class="header__daily">Daily 11am - 9pm</p>
+            <a class="header__phone" href="tel:0800330898">
+                <div class="header__phone-icon">
+                    <i class="fas fa-phone-alt"></i>
+                </div>
+                <p class="header__phone-number">0 800 33 08 98</p>
+            </a>
+            <button class="burger d-lg-none">
+                <span class="burger__line burger__line--top"></span>
+                <span class="burger__line burger__line--middle"></span>
+                <span class="burger__line burger__line--bottom"></span>
+            </button>
+        </div>
+    </header>
 
 <!--build:js js/main.min.js-->
 <script src="js/main.js"></script>

@@ -1,0 +1,18 @@
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 16px;
+  background-color: pink; }
+  .header__nav {
+    display: none; }
+  .header__menu {
+    list-style: none;
+    padding: 0;
+    margin: 0; }
+  .header__daily {
+    display: none; }
